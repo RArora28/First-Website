@@ -1,0 +1,14 @@
+function submit()
+{
+    var name = document.getElementById("#text");
+
+    if(name.length == 0)
+    {
+	alert("Please enter a valid text");
+    }
+
+    else
+    {
+	alert("Thanks for your feedback!");
+    }	
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset = "utf-8"/>
+    <title>Home</title>
+    <link rel = "stylesheet" type = "text/css" href = "index.css">
+  </head>
+
+  <body>
+    <nav class = "nav">
+    <ul>
+      <li><a href="index.html" class = "navopt">Home</a>
+      <li><a href="artwork.html" class = "navopt">My Art Gallery</a></li>
+      <li><a href="about.html" class = "navopt">About Me</a></li>
+      <li><a href="connect.html" class = "navopt">Write to Me</a></li>
+    </ul> 
+    </nav>
+    <div>
+      <img src = "me.jpg" class = "propic" alt = "image cannot be displayed"/>
+    </div>
+
+    <div class = "name">
+      <h1>Rishabh Arora</h1>
+      <div class = "qbox">
+	<p>"Sometimes, you've gotta run...</p>
+	<p>...before you can walk " - Robert Downey Jr.</p>
+      </div>
+    </div>
+    
+  </body>
+</html>

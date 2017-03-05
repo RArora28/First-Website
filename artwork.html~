@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset = "utf-8"/>
+    <title>Home</title>
+    <link rel = "stylesheet" type = "text/css" href = "artwork.css">
+  </head>
+
+  <body>	
+    <nav>
+      <ul>
+	<li><a href="index.html" class = "navopt">Home</a></li>
+	<li><a href="artwork.html" class = "navopt">My Art Gallery</a></li>
+	<li><a href="about.html" class = "navopt">About Me</a></li>
+	<li><a href="connect.html" class = "navopt">Write to me</a></li>
+      </ul>
+    </nav>
+
+    <div class = "base">
+
+      
+      <div class = "header">
+	<h1>Postal Colours</h1>
+      </div>
+      <div>
+	<div class = "postal1 postal">
+	  <img  class= "img1" src = "myart1.jpg" alt = "no">
+	  <p class = "box1">Well, this is one of my best experiments with postal colours. The objective of the painting was to potray 'PERMANENCE', and in my opinion there's no match for the permanence of nature. I have tried to display bad, stormy weather. But a tree can even withstand such a cruel weather with all its glory remaining indifferent.</p>
+	</div>
+	
+	<div class = "postal2 postal">
+	  <img class= "img2" src = "myart6.jpg" alt = "no">
+	  <p class = "box2">This painting is made, keeping in mind the tonal variations in the real world. The appropriate combination of the tonal variations and the corresponding contrast (wherever needed) gives us something really pleasing to the eyes, as is the case here. </p>
+	</div>
+      </div>
+      <div class = "header">
+	<h1>Oil Paintingss</h1>
+      </div>
+      <div class = "postal3 postal">
+	<img  class = "img3" src = "myart5.jpg" alt = "no">
+	<p class = "box3">Oh yeah! My "first Oil Painting". This painting might not be artistically perfect, but it surely gave me the understanding of colour mixing, as done in the trees and the sky. Well done! ME :P</p>
+      </div>
+      
+      <div class = "postal4 postal">
+	<img  class= "img4" src = "myart3.jpg" alt = "no">
+	<p class = "box4">Krishna: I made this oil painting in 10th standard and I consider it to be the best work done by me till date. The painting consists of lot of colours, which is actually the essence of the painting. No offence to anybody, but I ain't a strict believer of any religion and thus in my opinion this painting has less to do the with cultural beliefs, it shows how colourful our life is, different colours even for similar parts like hands shows the diversity of the life and.......</p>
+     </div>
+      <div>
+	<div class = "postal5 postal">
+	  <img class= "img5" src = "myart4.jpg" alt = "no">
+	  <p class = "box5">Less to say about this one, just enjoy this the silence</p>
+	</div>
+	
+	<div class = "postal6 postal">
+	  <img  class = "img6" src = "myart2.jpg" alt = "no">
+	  <p class = "box6">Did this as a part of college assignment. The agenda was clear enough to display tonal variations using pencil</p>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>

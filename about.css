@@ -1,0 +1,205 @@
+body {
+    background: -webkit-linear-gradient(white,#99FF00, #99FF33, #99FF66, #99FF99, #99FFCC, #99CCFF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #99FF00, #99FF33, #99FF66, #99FF99, #99FFCC, #99CCFF); /* For Opera 11.1 to 12.0*/
+    background: -moz-linear-gradient(white, #99FF00, #99FF33, #99FF66, #99FF99, #99FFCC, #99CCFF); /* For Firefox 3.6 to 15*/
+    background: linear-gradient(white, #99FF00, #99FF33, #99FF66, #99FF99, #99FFCC, #99CCFF); /* Standard syntax */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    margin-top: -0.75%;
+    position: relative;
+    min-width: 200px;
+    overflow: hidden;
+    margin-right: 0px;
+    
+}
+
+li {
+    float: left;
+}
+
+a:link,a:visited{
+	   margin-top: -2%;
+	   display:inline-block;
+	   color: white;
+	   font-size: 1.3em;
+	   background-color: rgb(32, 32,32);
+	   width: 310px;
+	   margin-right: 1px;
+	   padding-top: 7.5%;
+	   padding-bottom: 7.5%;
+	   text-align: center;
+	   text-decoration: none;
+	   transition: background-color 1s;
+       }
+
+a:hover {
+    background-color: rgb(64,64,64);
+}
+
+.head {
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: blue;
+    opacity: 0.7;
+}
+
+.text1 {
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0.5);
+    width:30%;
+    
+}
+
+.text2 {
+    display: inline-block;
+    background-color: rgba(0, 255, 0, 0.5);
+    width: 30%;
+}
+
+.text3 {
+    display: inline-block;
+    background-color: rgba(0, 0, 255, 0.5);
+    width: 30%
+}
+
+.text4 {
+    display: inline-block;
+    margin-top: 5%;
+    width: 30%;
+    margin-left: 5%;
+    background-color:rgba(100,100,0,0.5);
+}
+
+.text5 {
+    margin-top: 5%;
+    margin-left: 1%;
+    display: inline-block;
+    width: 30%;
+    background-color: rgba(0,100,100,0.5);
+}
+
+.text6 {
+    display: inline-block;
+    width:30%;
+    background-color: rgba(100,0,100,0.5);
+}
+
+.clg1{
+    height: 30%;
+    width: 30%;
+}
+
+.text4 {
+    display: inline-block;
+    width: auto;
+}
+
+.img1 {
+    margin-left: 10%;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+    height: 30%;
+    width: 40%;
+    display: inline-block;
+    z-index:1;
+}
+
+.img2 {
+    -ms-transform: rotate(350deg); /* IE 9 */
+    -webkit-transform: rotate(350deg); /* Chrome, Safari, Opera */
+    transform: rotate(350deg);
+    display: inline-block;
+    height: 30em;
+    width: auto;
+    border-radius: 50%;
+    margin-left: -10%;
+    z-index:1;
+}
+
+.img3 {
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+    display: inline-block;
+    height: 25em;
+    width: auto;
+    z-index:1;
+    transition: z-index 2s;
+}
+
+.img4 {
+    display: inline-block;
+    -ms-transform: rotate(12deg); /* IE 9 */
+    -webkit-transform: rotate(12deg); /* Chrome, Safari, Opera */
+    transform: rotate(12deg);
+    margin-left: 12%;
+    height: 20em;
+    width: auto;
+    margin-top: -3%;
+    z-index:1;
+}
+
+.img5 {
+    display: inline-block;
+    height: 30%;
+    width: 40%;
+    margin-top:-100%;
+    border-radius: 25%;
+    z-index:1;
+}
+
+.img6 {
+    display: inline-block;
+		 margin-left: 8%;
+    margin-top: -4%;
+    margin-left:0%;
+    height: 25%;
+    width: 35%;
+    -ms-transform: rotate(345deg); /* IE 9 */
+    -webkit-transform: rotate(345deg); /* Chrome, Safari, Opera */
+    transform: rotate(345deg);
+    z-index:1;
+}
+
+.img7 {
+    display:inline-block;
+    margin-top: -10%;
+    margin-left: -3%;
+    z-index:1;
+    height: 25%;
+    width: 35%;
+}
+
+.img8 {
+    display: inline-block;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+    border-radius: 30%;
+    z-index:1;
+    margin-left: -5%;
+    height: 25%;
+    width: 35%;
+}
+
+.clg1:hover {
+    z-index:5;
+}
+
+img:hover {
+    z-index:3;
+    transform: scale(1.2);
+    border: 3px solid black; 
+}
+
